@@ -1,0 +1,74 @@
+<html>
+
+<head>
+  <title>FotoEstudio</title>
+  <link rel="stylesheet" href="\CSS\style.css">
+  <script src="https://kit.fontawesome.com/de1cd90c72.js" crossorigin="anónimo"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANgXRayzRt4psYKBJtnEoODRNs_be-rrY&callback=initMap&libraries=maps,marker&v=beta">
+    </script>
+  <script>
+    function initMap() {
+      console.log('Maps JavaScript API loaded.');
+    }
+  </script>
+</head>
+
+
+<body>
+
+  <div class="head">
+
+    <nav class="navbar">
+      <i class="fa-solid fa-house"></i>
+      <a href="\html\index.html">Inicio</a>
+      <i class="fa-solid fa-shop"></i>
+      <a href="\html\Precios.html">Precio</a>
+      <i class="fa-solid fa-info"></i>
+      <a href="\html\Informacion.html">Informacion</a>
+      <i class="fa-solid fa-camera-retro"></i>
+      <a href="\html\Portafolio.html">Portafolio</a>
+
+    </nav>
+
+  </div>
+
+  <header class="content header">
+    <h2 class="title">Informacion</h2>
+    <p>
+    <section class="sau">
+      <p>
+      <div class="box-container">
+        <div class="box">
+          <i class="fa-solid fa-phone"></i>
+          <h3> Telefono</h3>
+          <p>(+506)80608328</p>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fa-brands fa-instagram"></i>
+          <h3>Instagrm</h3>
+          <p>@FotoEstudio</p>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fa-brands fa-facebook"></i>
+          <h3>facebook</h3>
+          <p>FotoEstudiocr</p>
+        </div>
+      </div>
+      </p>
+    </section>
+
+  </header>
+  <section class="Map">
+    <h3 class="title-Ubi">Ubicacion</h3>
+    <gmp-map class=" " center="9.938693, -84.067061" zoom="18" map-id="DEMO_MAP_ID"></gmp-map>
+  </section>
+</body>
+
+</html>
